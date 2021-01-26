@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="171 290 537 28" width="537" height="28">
+  <defs>
+    <font-face font-family="Courier New" font-size="8" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2020-04-06 03:38:29 +0000</dc:date>
+  </metadata>
+  <g id="Canvas____" stroke="none" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1" fill="none">
+    <title>正/逆序对</title>
+    <g id="Canvas____: 正/逆序对">
+      <title>正/逆序对</title>
+      <g id="Group_13">
+        <g id="Graphic_3">
+          <rect x="171.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="171.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(176.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="5.5996096" y="7">l</tspan>
+          </text>
+        </g>
+        <g id="Graphic_4">
+          <rect x="197.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="197.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(202.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">l+1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_5">
+          <rect x="266.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="266.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(271.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">i-1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_6">
+          <rect x="292.6" y="291" width="26" height="26" fill="#c0ffc0"/>
+          <rect x="292.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(297.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="5.5996096" y="7">i</tspan>
+          </text>
+        </g>
+        <g id="Graphic_7">
+          <rect x="318.6" y="291" width="26" height="26" fill="#c0ffc0"/>
+          <rect x="318.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(323.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">i+1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_8">
+          <rect x="413.6" y="291" width="26" height="26" fill="#c0ffc0"/>
+          <rect x="413.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(418.6 295)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">mid</tspan>
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="3.199219" y="16">-1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_9">
+          <rect x="387.6" y="291" width="26" height="26" fill="#c0ffc0"/>
+          <rect x="387.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(392.6 295)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">mid</tspan>
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="3.199219" y="16">-2</tspan>
+          </text>
+        </g>
+        <g id="Graphic_11">
+          <rect x="223.6" y="298.4" width="43" height="11.2" fill="white"/>
+          <rect x="223.6" y="298.4" width="43" height="11.2" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(228.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="11.699219" y="7">……</tspan>
+          </text>
+        </g>
+        <g id="Graphic_12">
+          <rect x="344.6" y="298.4" width="43" height="11.2" fill="#c0ffc0"/>
+          <rect x="344.6" y="298.4" width="43" height="11.2" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(349.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="11.699219" y="7">……</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_14">
+        <g id="Graphic_23">
+          <rect x="439.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="439.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(444.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">mid</tspan>
+          </text>
+        </g>
+        <g id="Graphic_22">
+          <rect x="465.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="465.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(470.6 295)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">mid</tspan>
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="3.199219" y="16">+1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_21">
+          <rect x="534.6" y="291" width="26" height="26" fill="white"/>
+          <rect x="534.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(539.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">j-1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_20">
+          <rect x="560.6" y="291" width="26" height="26" fill="#c0ffff"/>
+          <rect x="560.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(565.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="5.5996096" y="7">j</tspan>
+          </text>
+        </g>
+        <g id="Graphic_19">
+          <rect x="586.6" y="291" width="26" height="26" fill="#c0ffff"/>
+          <rect x="586.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(591.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">j+1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_18">
+          <rect x="681.6" y="291" width="26" height="26" fill="#c0ffff"/>
+          <rect x="681.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(686.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">r-1</tspan>
+          </text>
+        </g>
+        <g id="Graphic_17">
+          <rect x="655.6" y="291" width="26" height="26" fill="#c0ffff"/>
+          <rect x="655.6" y="291" width="26" height="26" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(660.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x=".7988283" y="7">r-2</tspan>
+          </text>
+        </g>
+        <g id="Graphic_16">
+          <rect x="491.6" y="298.4" width="43" height="11.2" fill="white"/>
+          <rect x="491.6" y="298.4" width="43" height="11.2" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(496.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="11.699219" y="7">……</tspan>
+          </text>
+        </g>
+        <g id="Graphic_15">
+          <rect x="612.6" y="298.4" width="43" height="11.2" fill="#c0ffff"/>
+          <rect x="612.6" y="298.4" width="43" height="11.2" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width=".25"/>
+          <text transform="translate(617.6 299)" fill="black">
+            <tspan font-family="Courier New" font-size="8" font-weight="400" fill="black" x="11.699219" y="7">……</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

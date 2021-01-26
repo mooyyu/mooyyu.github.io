@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="flattr:id" content="e7nqg5"> <title>Document not found | Mooyyu Crab.</title> <meta name="generator" content="Jekyll v3.9.0"> <meta property="og:title" content="Document not found"> <meta name="author" content="mooyyu"> <meta property="og:locale" content="en_US"> <meta name="description" content="Custom 404 page for not found documents"> <meta property="og:description" content="Custom 404 page for not found documents"> <link rel="canonical" href="https://mooyyu.github.io/meta/missing/"> <meta property="og:url" content="https://mooyyu.github.io/meta/missing/"> <meta property="og:site_name" content="Mooyyu Crab."> <script type="application/ld+json">
+{"headline":"Document not found","author":{"@type":"Person","name":"mooyyu"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mooyyu.github.io/assets/images/logo/mooyyu/m.png"},"name":"mooyyu"},"description":"Custom 404 page for not found documents","url":"https://mooyyu.github.io/meta/missing/","@type":"WebPage","@context":"https://schema.org"}</script> <link rel="icon" href="/assets/favicon.ico"> <link rel="stylesheet" href="/assets/stylesheets/main.css"> <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]--> <script src="/assets/javascript/head.min.js"></script> <script type="text/javascript">
+
+      /**
+       * As Github pages do not support https for custom domains
+       * this is the current best workaround for #18.
+       */
+      var domains  = [ 'mooyyu.github.io', 'localhost', '127.0.0.1' ];
+      var pathname = location.pathname.replace(/^\/Mooyyu Crab.'s Github Page/, '')
+      if (domains.indexOf(window.location.hostname) == -1)
+        window.top.location.href = 'https://mooyyu.github.io' + pathname;
+
+      /**
+       * Another ugly workaround trying to improve UX reported by #35
+       */
+      if (location.protocol != 'https:' && window.location.hostname == 'mooyyu.github.io')
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+
+      /**
+       * Improves overall speed by loading javascript and css resources in parallel
+       * with the main page.
+       */
+      head.load(
+          "/assets/stylesheets/font-awesome.min.css",
+
+          "/assets/javascript/jquery-2.2.1.min.js",
+          "/assets/javascript/jquery-ui.min.js",
+          "/assets/javascript/bootstrap.min.js",
+          "/assets/javascript/tocify.min.js",
+          "/assets/javascript/custom.js",
+
+          "/assets/javascript/sheetrock.min.js",
+          "/assets/javascript/cookieconsent.min.js",
+          "/assets/javascript/pop.min.js"
+      );
+
+      head.ready(function() {
+        window.cookieconsent_options = {
+          "message":"This site use cookies to ensure you get the best experience on the website",
+          "dismiss": "Got it!", "learnMore": "More info", "link":"", "theme": "dark-bottom"
+        };
+      });
+    </script> </head> <body role="document"> <nav class="navbar navbar-default navbar-fixed-top custom-no-margin"> <div class="container"> <div class="navbar-header"> <a href="/" class="navbar-brand" style="color: slategrey;"> Mooyyu Crab.'s Blog </a> <img id="daynite" src="/assets/images/btn-night.svg" alt="Dark Mode" width="32" height="32"> <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> </div> <div class="navbar-collapse collapse" id="navbar-main"> <ul class="nav navbar-nav"> <li><a href="/whoami/">WHO AM I? </a></li> <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-documentation">Site Index <span class="caret"></span></a> <ul class="dropdown-menu"> <li class="dropdown-submenu algorithm"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Algorithm</a> <ul class="dropdown-menu"> <li><a href="/meta/algorithm/"> All documents </a></li> <li class="divider"> <li><a href="/docs/algorithm/Math-1.html">算法竞赛简单数论知识(一)</a></li> <li><a href="/docs/algorithm/DP-knapsack.html">动态规划: 背包问题 (一)</a></li> <li><a href="/docs/algorithm/Graph-shortest_path.html">图论浅谈之最短路</a></li> <li><a href="/docs/algorithm/DP-linear.html">动态规划入门之线性极值模型</a></li> <li><a href="/docs/algorithm/DS-1.html">算法竞赛简单数据结构(一)</a></li> <li><a href="/docs/algorithm/Graph-segment_tree_scan.html">线段树之扫描线浅谈</a></li> <li><a href="/docs/algorithm/basic.html">基础算法杂谈</a></li> </ul> </li> <li class="dropdown-submenu oicode"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">OI-code</a> <ul class="dropdown-menu"> <li><a href="/meta/oicode/"> All documents </a></li> <li class="divider"> <li><a href="/docs/oicode/B1.html"><strong>B1</strong>: 前缀和与差分</a></li> <li><a href="/docs/oicode/B2.html"><strong>B2</strong>: 快速组合</a></li> <li><a href="/docs/oicode/B3.html"><strong>B3</strong>: 二分查找</a></li> <li><a href="/docs/oicode/B4-add.html"><strong>B4</strong>: 高精度加法</a></li> <li><a href="/docs/oicode/B4-div.html"><strong>B4</strong>: 高精度除法</a></li> <li><a href="/docs/oicode/B4-multi.html"><strong>B4</strong>: 高精度乘法</a></li> <li><a href="/docs/oicode/B4-sub.html"><strong>B4</strong>: 高精度减法</a></li> <li><a href="/docs/oicode/D1.html"><strong>D1</strong>: 单调栈</a></li> <li><a href="/docs/oicode/D2.html"><strong>D2</strong>: 单调队列</a></li> <li><a href="/docs/oicode/D3.html"><strong>D3</strong>: Spare Table</a></li> <li><a href="/docs/oicode/D4.html"><strong>D4</strong>: 字典树</a></li> <li><a href="/docs/oicode/D5.html"><strong>D5</strong>: 并查集</a></li> <li><a href="/docs/oicode/D6-rc.html"><strong>D6</strong>: 树状数组-限定区间计数</a></li> <li><a href="/docs/oicode/D6-surs.html"><strong>D6</strong>: 树状数组-单点更新区间求和</a></li> <li><a href="/docs/oicode/D7-basic.html"><strong>D7</strong>: 线段树-基础</a></li> <li><a href="/docs/oicode/G1.html"><strong>G1</strong>: 二分图-判定</a></li> <li><a href="/docs/oicode/G2.html"><strong>G2</strong>: 二分图-最大匹配</a></li> <li><a href="/docs/oicode/G3.html"><strong>G3</strong>: Astar k短路 on matrix</a></li> <li><a href="/docs/oicode/G4.html"><strong>G4</strong>: 拓扑排序</a></li> <li><a href="/docs/oicode/G5.html"><strong>G5</strong>: 连通无环无向图的重心</a></li> <li><a href="/docs/oicode/G6.html"><strong>G6</strong>: MST-Kruskal</a></li> <li><a href="/docs/oicode/G7.html"><strong>G7</strong>: MST-Prim</a></li> <li><a href="/docs/oicode/G8.html"><strong>G8</strong>: ShortestPath-BellmanFord</a></li> <li><a href="/docs/oicode/G9.html"><strong>G9</strong>: ShortestPath-Dijkstra</a></li> <li><a href="/docs/oicode/G9-hopt.html"><strong>G9</strong>: ShortestPath-Dijkstra Heap OPT</a></li> <li><a href="/docs/oicode/G10.html"><strong>G10</strong>: ShortestPath-SPFA</a></li> <li><a href="/docs/oicode/G11.html"><strong>G11</strong>: ShortestPath-Floyd</a></li> <li><a href="/docs/oicode/M1.html"><strong>M1</strong>: 快速幂与龟速乘</a></li> <li><a href="/docs/oicode/M2.html"><strong>M2</strong>: 欧几里得-最大公约数</a></li> <li><a href="/docs/oicode/M2-ft.html"><strong>M2</strong>: EX欧几里得-翡蜀定理</a></li> <li><a href="/docs/oicode/M2-lce.html"><strong>M2</strong>: EX欧几里得-线性同余方程</a></li> <li><a href="/docs/oicode/M2-mi.html"><strong>M2</strong>: EX欧几里得-乘法逆元</a></li> <li><a href="/docs/oicode/M3-flt.html"><strong>M3</strong>: 费马小定理-乘法逆元</a></li> <li><a href="/docs/oicode/M4.html"><strong>M4</strong>: 分解质因数</a></li> <li><a href="/docs/oicode/M4-euler.html"><strong>M4</strong>: 分解质因数-欧拉函数</a></li> <li><a href="/docs/oicode/M4-prc.html"><strong>M4</strong>: 分解质因数-多数乘积约数计数</a></li> <li><a href="/docs/oicode/M4-prs.html"><strong>M4</strong>: 分解质因数-多数乘积约数求和</a></li> <li><a href="/docs/oicode/M5.html"><strong>M5</strong>: 欧拉筛</a></li> <li><a href="/docs/oicode/M5-ps.html"><strong>M5</strong>: 欧拉筛-质数筛</a></li> <li><a href="/docs/oicode/M6.html"><strong>M6</strong>: 埃氏筛-质数筛</a></li> <li><a href="/docs/oicode/M7.html"><strong>M7</strong>: Stein算法-最大公约数</a></li> <li><a href="/docs/oicode/M8.html"><strong>M8</strong>: 矩阵乘法与快速幂</a></li> <li><a href="/docs/oicode/O1.html"><strong>O1</strong>: 快速排序</a></li> <li><a href="/docs/oicode/O2.html"><strong>O2</strong>: 并归排序</a></li> <li><a href="/docs/oicode/S1.html"><strong>S1</strong>: KMP</a></li> <li><a href="/docs/oicode/S2.html"><strong>S2</strong>: 字符串哈希</a></li> </ul> </li> </ul> </li> <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">传统算法 <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a href="/docs/algorithm/basic">基础算法杂谈</a></li> <li class="divider"> <li><a href="/docs/algorithm/DS-1">算法竞赛简单数据结构(一)</a></li> <li class="divider"> <li><a href="/docs/algorithm/DP-knapsack">动态规划:背包问题(一)</a></li> <li><a href="/docs/algorithm/DP-linear">动态规划入门之线性极值模型</a></li> <li class="divider"> <li><a href="/docs/algorithm/Graph-shortest_path">图论浅谈之最短路</a></li> <li><a href="/docs/algorithm/Graph-segment_tree_scan">线段树之扫描线浅谈</a></li> <li class="divider"> <li><a href="/docs/algorithm/Math-1">算法竞赛简单数论知识(一)</a></li> </ul> </li> <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">数学笔记 <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a>🦉即将上线</a></li> </ul> </li> <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">AI笔记 <span class="caret"></span></a> <ul class="dropdown-menu"> <li><a>🦉即将上线</a></li> </ul> </li> </ul> <ul class="nav navbar-nav navbar-right visible-lg-block"> </ul> </div> </div> </nav> <div class="jumbotron custom-no-margin"> <div class="container"> <h1>
+<i class="fa fa-file-text-o" aria-hidden="true"></i> Document not found</h1> <p class="text-justify">If you were trying to do something on the site and ended up here then <a href="//github.com/MarlinFirmware/MarlinDocumentation/issues">let us know</a> and we’ll get it sorted.</p> </div> </div> <footer> <div class="container"> <div class="row"> <div class="col-lg-8"> <p>Mooyyu Crab.'s Blog <i class="fa fa-heart text-danger" aria-hidden="true"></i>. Check out <a href="//github.com/mooyyu/mooyyu.github.io" target="_blank">Github Project <i class="fa fa-github-alt" aria-hidden="true"></i></a>.<br> The contents of this website are © 2021 under the terms of the <a href="//www.gnu.org/licenses/gpl-3.0.txt" target="_blank">GPLv3</a> License.</p> </div> <div class="col-lg-4"> <div class="pull-right"> <a href="#top" data-proofer-ignore> Back to top <i class="fa fa-level-up" aria-hidden="true"></i></a> </div> </div> </div> </div> </footer> <div style="width: 100%; overflow-x: hidden;"> <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas> </div> <script>
+  MathJax = {
+    options: {
+      enableMenu: false
+    }
+  };
+</script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-svg.js"></script> <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-128176907-1', {
+          'cookieDomain': 'mooyyu.github.io',
+          'siteSpeedSampleRate': 80
+      });
+
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+    </script> </body> </html>

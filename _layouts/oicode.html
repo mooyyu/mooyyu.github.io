@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- content -->
+<div class="container oicode" role="main">
+  <div class="row">
+    <div class="col-lg-3 col-md-4 visible-lg-block visible-md-block custom-no-padding">
+      <div class="">
+        {% assign list = '' | split: '|' %}
+        {% for oicode in site.oicode %}
+          {% if oicode.codes[0] %}
+            {% assign list = list | push: oicode %}
+          {% endif %}
+        {% endfor %}
+
+        {% if list.size > 0 %}
+          <div class="tocify oicode">
+            <ul class="tocify-header nav nav-list">
+              {% assign list = list | sort: 'tag' %}
+              {% for oicode in list %}
+                <li class="tocify-item{% if page.codes[0] == oicode.codes[0] and page.title == oicode.title %} active{% endif %}"><a href="{{ oicode.url | prepend: site.baseurl }}"><strong>{{ oicode.codes | codes_desc }}</strong>: {{ oicode.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-8 custom-bg-white">
+      <div class="row">
+        <div class="col-md-12">
+          {% if page.collection == 'oicode' and page.codes %}
+            {% assign oicode = page %}
+            {% include oicode-info.html %}
+          {% else %}
+            <h1>OI-code Index</h1>
+            {% for oicode in site.oicode %}
+              {% if oicode.codes %}
+                {% assign odd = forloop.index | modulo: 2 %}
+                <div class="oicode item{% if odd == 0 %} odd{% endif %}">
+                  {% include oicode-summ.html %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /content -->

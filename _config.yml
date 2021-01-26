@@ -1,0 +1,116 @@
+name: 'Mooyyu Crab.'
+logo: '/assets/images/logo/mooyyu/m.png'
+description: 'Printing the planet, one layer at a time.'
+
+baseurl: ''
+url: 'https://mooyyu.github.io'
+js: '/assets/javascript/'
+
+# Not used anymore
+enforce_ssl: mooyyu.github.io
+
+version: '1.0.0'
+environment: development
+
+destination: ./docs
+
+repository:
+  main: 'https://github.com/mooyyu/mooyyu.github.io'
+  # doc: 
+
+analytics:
+  id: 'UA-128176907-1'
+  domain: 'mooyyu.github.io'
+
+plugins:
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-bootstrap-sass
+  - jekyll-tidy
+  - jekyll-spaceship
+
+jekyll-spaceship:
+  processors:
+    - mermaid-processor
+  mermaid-processor:
+    mode: default
+    css:
+      class: mermaid
+    syntax:
+      code: 'mermaid'
+    config:
+      theme: default
+    src: https://mermaid.ink/svg/
+
+markdown: kramdown
+highlighter: rouge
+timezone: '	Asia/Shanghai'
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+jekyll_tidy:
+  compress_html: true
+
+sass:
+    style: compressed
+
+collections:
+  oicode:
+    output: true
+    title: OI-code
+    permalink: /docs/:collection/:path:output_ext
+
+  meta:
+    output: true
+    permalink: /:collection/:path/
+
+  algorithm:
+    output: true
+    title: Algorithm
+    permalink: /docs/:collection/:path:output_ext
+
+exclude:
+  - '_config.yml'
+  - 'Gemfile'
+  - 'LICENSE'
+  - 'public'
+  - 'script'
+  - 'vendor'
+  - '_whoami'
+
+defaults:
+  - # All types
+    scope:
+      path: '' # all files
+    values:
+      layout: 'default'
+      author: 'mooyyu'
+      category: [ 'default' ]
+      show:
+        navbar: true
+        footer: true
+        breadcrumbs: false
+
+  - # OI-code collection settings
+    scope:
+      type: 'oicode'
+    values:
+      layout: 'oicode'
+      category: [ 'oicode' ]
+
+  - # Meta collection settings
+    scope:
+      type: 'meta'
+    values:
+      category: [ 'meta' ]
+
+  - # Algorithm collection settings
+    scope:
+      type: 'algorithm'
+    values:
+      layout: 'docs'
+      category: [ 'algorithm' ]

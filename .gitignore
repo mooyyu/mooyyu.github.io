@@ -1,0 +1,7 @@
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+vendor
+*.DS_Store
+_whoami/node_modules/
+whoami/

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="109 127 822 158" width="822" height="158">
+  <defs>
+    <font-face font-family="Courier New" font-size="11" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="12" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="400">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2020-04-11 02:28:58 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_20">
+        <g id="Group_6">
+          <g id="Graphic_4">
+            <rect x="109.5" y="157" width="200" height="30" fill="#c0ffc0"/>
+            <rect x="109.5" y="157" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(114.5 165)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="45.491943" y="9">check(x) = true</tspan>
+            </text>
+          </g>
+          <g id="Graphic_5">
+            <rect x="309.5" y="157" width="200" height="30" fill="white"/>
+            <rect x="309.5" y="157" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(314.5 165)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="42.191406" y="9">check(x) = false</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_16">
+          <rect x="279.5" y="157" width="30" height="30" fill="#c0ffff" fill-opacity=".26442102"/>
+          <rect x="279.5" y="157" width="30" height="30" stroke="#ff2600" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_21">
+        <g id="Group_7">
+          <g id="Graphic_9">
+            <rect x="530" y="157" width="200" height="30" fill="white"/>
+            <rect x="530" y="157" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(535 165)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="42.191406" y="9">check(x) = false</tspan>
+            </text>
+          </g>
+          <g id="Graphic_8">
+            <rect x="730" y="157" width="200" height="30" fill="#c0ffc0"/>
+            <rect x="730" y="157" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(735 165)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="45.491943" y="9">check(x) = true</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_17">
+          <rect x="729" y="157" width="30" height="30" fill="#c0ffff" fill-opacity=".26442102"/>
+          <rect x="729" y="157" width="30" height="30" stroke="#ff2600" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_22">
+        <g id="Group_13">
+          <g id="Graphic_15">
+            <rect x="109.5" y="254" width="200" height="30" fill="#c0ffc0"/>
+            <rect x="109.5" y="254" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(114.5 262)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="5.885498" y="9">comp(element, value) = true</tspan>
+            </text>
+          </g>
+          <g id="Graphic_14">
+            <rect x="309.5" y="254" width="200" height="30" fill="white"/>
+            <rect x="309.5" y="254" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(314.5 262)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="2.584961" y="9">comp(element, value) = false</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_18">
+          <rect x="308.5" y="254" width="30" height="30" fill="#c0ffff" fill-opacity=".26442102"/>
+          <rect x="308.5" y="254" width="30" height="30" stroke="#ff2600" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_23">
+        <g id="Group_10">
+          <g id="Graphic_12">
+            <rect x="530" y="254" width="200" height="30" fill="white"/>
+            <rect x="530" y="254" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(535 262)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="2.584961" y="9">comp(value, element) = false</tspan>
+            </text>
+          </g>
+          <g id="Graphic_11">
+            <rect x="730" y="254" width="200" height="30" fill="#c0ffc0"/>
+            <rect x="730" y="254" width="200" height="30" stroke="gray" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+            <text transform="translate(735 262)" fill="black">
+              <tspan font-family="Courier New" font-size="11" font-weight="400" fill="black" x="5.885498" y="9">comp(value, element) = true</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_19">
+          <rect x="729.5" y="254" width="30" height="30" fill="#c0ffff" fill-opacity=".26442102"/>
+          <rect x="729.5" y="254" width="30" height="30" stroke="#ff2600" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(230.2871 132)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="10">rfind(l, r) + check(x)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(650.7871 132)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="10">lfind(l, r) + check(x)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(136.67188 224)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="10">lower_bound(begin, end, value, comp = operator&lt;)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(557.1719 224)" fill="black">
+          <tspan font-family="Courier New" font-size="12" font-weight="400" fill="black" x="0" y="10">upper_bound(begin, end, value, comp = operator&lt;)</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

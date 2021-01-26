@@ -1,0 +1,44 @@
+---
+# Empty front matter
+---
+
+$icon-font-path: '/assets/fonts/';
+
+$headings-font-weight: 600 !default;
+$font-family-sans-serif: 'crab-face', 'Open Sans', sans-serif !default;
+$font-family-monospace: 'crab-face', 'Oxygen Mono', monospace !default;
+$font-family-heading: 'crab-face', 'Montserrat', sans-serif !default;
+
+$btn-font-weight: 500 !default;
+
+$navbar-font-weight: 500 !default;
+$navbar-default-link-hover-bg: #eee !default;
+$navbar-default-brand-hover-bg: #eee !default;
+
+$link-color: #eb6864 !default;
+$link-hover-color: #e22620 !default;
+
+@font-face {
+    src: url('/assets/fonts/face2.otf');
+    font-family: 'crab-face';
+    unicode-range: U+30-39, U+41-5A, U+61-7A;
+}
+
+@import 'bootstrap';
+@import 'basics';
+@import 'carousel';
+@import 'custom';
+@import 'dropdown-submenu';
+@import 'sidebar';
+@import 'syntax-highlighting';
+@import 'toc';
+@import 'k-pattern';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oxygen+Mono|Montserrat';
+
+body {
+    user-select: none;
+
+    div.highlight pre.highlight {
+        user-select: all;
+    }
+}
