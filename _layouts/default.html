@@ -131,6 +131,8 @@
   <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
 </div>
 
+{% if page.isIndex %}
+{% else %}
 <!-- Mathjax Support -->
 <script>
   MathJax = {
@@ -140,6 +142,8 @@
   };
 </script>
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-svg.js"></script>
+{% endif %}
+
 {% if site.analytics.id %}
     <!-- analytics -->
     <script>

@@ -554,7 +554,11 @@ footer>.container { display: block; clear: both; margin: 1em auto; }
 @media (max-width: $screen-sm-min) {
   li#searchbox input[type="search"] { width: 10em !important; }
   .tocify.oicode, .custom-fixed-sidebar .tocify { width: 324px; }
-  footer>.container { width: ($screen-sm-min - 30 - 20); padding-left: 344px; }
+  footer>.container { width: 100vw; }
+}
+
+@media (max-width: 340px) {
+  .navbar-header > a.navbar-brand { font-size: 2.1rem;  }
 }
 
 // Fix headings in panels
