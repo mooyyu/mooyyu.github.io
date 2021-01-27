@@ -47,6 +47,4 @@
   >a { border-color: #FFF; }
 }
 
-.dropdown-submenu.oicode,
-.dropdown-submenu.setting { >.dropdown-menu { overflow: scroll; height: 26em; } }
-.dropdown-submenu.setting>.dropdown-menu { max-height: 26em; }
+.dropdown-submenu.oicode { >.dropdown-menu { overflow: scroll; height: 26em; } }

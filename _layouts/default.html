@@ -65,6 +65,9 @@
           "message":"This site use cookies to ensure you get the best experience on the website",
           "dismiss": "Got it!", "learnMore": "More info", "link":"", "theme": "dark-bottom"
         };
+        $("body").on('click', '[data-stopPropagation]', function (e) {
+          e.stopPropagation();
+        });
       });
     </script>
     <!-- /head -->
@@ -162,5 +165,6 @@
     </script>
     <!-- /analytics -->
 {% endif %}
+
   </body>
 </html>

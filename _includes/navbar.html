@@ -23,19 +23,19 @@
         {% if col.title %}{% assign list = list | push: col %}{% endif %}
         {% endfor %}
         {% if list.size > 0 %}{% assign list = (list | sort: 'title') %}{% endif %}
-        <li class="dropdown">
+        <li class="dropdown siteindex">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-documentation">Site Index <span
               class="caret"></span></a>
           <ul class="dropdown-menu">
             {% if list.size > 0 %}
             {% for col in list %}
             {% if col.title %}
-            <li class="dropdown-submenu {{ col.label }}">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ col.title }}</a>
+            <li class="dropdown dropdown-submenu {{ col.label }}">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-stopPropagation="true" id="navbar-sub-{{col.label}}">{{ col.title }}</a>
               <ul class="dropdown-menu">
                 <li><a href="{{ '/meta/' | append: col.label | append: '/' }}">
                     All documents
-                  </a></li>
+                </a></li>
                 {% if col.label == 'oicode' %}
                 <li class="divider"></li>
                 {% assign docs = (col.docs | sort: 'tag') %}
@@ -62,7 +62,7 @@
         </li>
 
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">传统算法 <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-algorithm">传统算法 <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ '/docs/algorithm/basic' }}">基础算法杂谈</a></li>
             <li class="divider"></li>
@@ -79,14 +79,14 @@
         </li>
 
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">数学笔记 <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-math">数学笔记 <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a>🦉即将上线</a></li>
           </ul>
         </li>
 
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-tools">AI笔记 <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbar-ai">AI笔记 <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a>🦉即将上线</a></li>
           </ul>
