@@ -41,7 +41,8 @@ category:     [ default ]
         <span style="color: green;">jq</span> -r
         <span style="color: yellowgreen;">'.[].commit|.author.date+" "+.author.name+" "+.message'</span>
         <br>
-        <p v-for="(item, index) in log" :key="'log-'+index" v-text="item.commit.author.date+' '+item.commit.author.name+' '+item.commit.message"></p>
+        <p v-if="Array.isArray(log)" v-for="(item, index) in log" :key="'log-'+index" v-text="item.commit.author.date+' '+item.commit.author.name+' '+item.commit.message"></p>
+        <p class="whatthefuck" v-else v-text="'403 Forbidden: ' + log.message.substr(0, log.message.indexOf('('))"></p>
         {{ bashHeader }}
       </div>
     </div>
@@ -81,10 +82,14 @@ category:     [ default ]
         let vue = this;
         let xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
+        xhr.setRequestHeader("Content-type", "text/html");
         xhr.send();
         xhr.onreadystatechange = function (e) {
           if (xhr.readyState == 4 && xhr.status == 200) {
             vue[data] = JSON.parse(xhr.response);
+          }
+          if (xhr.status == 403 && data == 'log' && Array.isArray(vue.log)) {
+            vue.log = JSON.parse(xhr.response);
           }
         };
       }
