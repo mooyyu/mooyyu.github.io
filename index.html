@@ -6,38 +6,88 @@ isIndex:      true
 category:     [ default ]
 ---
 
+{% capture cmdHeader %}
+<div class="click">
+  <div class="red"></div>
+  <div class="yellow"></div>
+  <div class="green"></div>
+</div>
+<div class="title">
+  <span>𝒞𝓇𝒶𝒷.𝓂ℴℴ𝓎𝓎𝓊 - iTerm2</span>
+</div>
+{% endcapture %}
+
+{% capture bashHeader %}
+<span style="color: rgb(0, 190, 0);">𝒞𝓇𝒶𝒷.𝓂ℴℴ𝓎𝓎𝓊 @ mooyyu.github.io</span>
+<span style="color: blue;">~</span>
+<br>
+<span style="color: darkslategrey;">> </span>
+{% endcapture %}
+
 <div id="box">
   <div class="header-box">
     <div class="avatar">
       <img src="/assets/images/logo/mooyyu/logo.jpg" alt="logo" class="img-responsive">
     </div>
   </div>
-  <!-- 伪终端介绍 -->
   <div id="cmdBox">
-    <!-- 第一个终端 -->
     <div class="cmd">
-      <!-- 三个按钮 -->
-      <div class="click">
-        <div class="red"></div>
-        <div class="yellow"></div>
-        <div class="green"></div>
-      </div>
-      <!-- 顶部标题 -->
-      <div class="title">
-        <span>𝒞𝓇𝒶𝒷.𝓂ℴℴ𝓎𝓎𝓊 - iTerm2</span>
-      </div>
-      <!-- 终端内文字 -->
+      {{ cmdHeader }}
       <div class="cmdText">
-        <span style="color: rgb(0, 190, 0);">𝒞𝓇𝒶𝒷.𝓂ℴℴ𝓎𝓎𝓊 @ mooyyu.github.io</span>
-        <span style="color: blue;">~</span>
-        <span style="color: rgb(39, 39, 39);"><span style="color: skyblue;">cat</span> /me.txt</span>
-        <p>本科期间有3年的项目经验, 其中包括一年以上的团队leader. 有独立开发项目的能力, 也适应团队协作的高效开发方式. 能编写稳定可靠的程序, 代码整洁结构良好. 有高效的项目管理与团队合作能力. 在校期间两次获得校先进个人荣誉."</p>
-        <p>喜欢算法, 本科期间参加众多如ICPC, CCPC, 蓝桥杯等竞赛并取得一些成绩. 喜欢新知识、新技术, 适应能力强, 学习速度快(真)."</p>
-        <p>有个人网站. 熟悉前后端分离项目开发，前端有基于vue生态的多个项目开发经验，也了解微信小程序的开发; 后端也有基于springboot的多个项目开发经验. 喜欢开源，善于思考, 爱折腾. 熟练使用git版本管理,熟练使用命令行环境进行工作. 有丰富的BS架构web应用开发经验。对程序的稳定健壮以及良好用户体验追求精益求精."</p>
-        <p>乐观积极, 热爱生活. 球类运动我的最爱.</p>
-        <span style="color: rgb(0, 190, 0);">𝒞𝓇𝒶𝒷.𝓂ℴℴ𝓎𝓎𝓊 @ mooyyu.github.io</span>
-        <span style="color: blue;">~</span>
+        {{ bashHeader }}
+        <span style="color: green;">curl</span> -s
+        <span style="color: yellowgreen;">https://api.github.com/repos/mooyyu/mooyyu.github.io/commits</span> \
+        <br>| 
+        <span style="color: green;">jq</span> -r
+        <span style="color: yellowgreen;">'.[].commit|.author.date+" "+.author.name+" "+.message'</span>
+        <br>
+        <p v-for="(item, index) in log" :key="'log-'+index" v-text="item.commit.author.date+' '+item.commit.author.name+' '+item.commit.message"></p>
+        {{ bashHeader }}
+      </div>
+    </div>
+    <div class="cmd">
+      {{ cmdHeader }}
+      <div class="cmdText">
+        {{ bashHeader }}
+        <span style="color: green;">curl</span> -s 
+        <span style="color: yellowgreen;">https://mooyyu.github.io/whoami/whoami.json</span> | 
+        <span style="color: green;">jq</span> -r 
+        <span style="color: yellowgreen;">'.intro|.[]'</span>
+        <br>
+        <p v-for="(item, index) in whoami.intro" :key="'intro-'+index" v-text="item"></p>
+        {{ bashHeader }}
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  let box = new Vue({
+    el: '#box',
+    data() {
+      return {
+        log: [],
+        whoami: {
+          intro: []
+        }
+      }
+    },
+    created() {
+      this.xget('https://api.github.com/repos/mooyyu/mooyyu.github.io/commits', 'log');
+      this.xget('https://mooyyu.github.io/whoami/whoami.json', 'whoami');
+    },
+    methods: {
+      xget(url, data) {
+        let vue = this;
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.send();
+        xhr.onreadystatechange = function (e) {
+          if (xhr.readyState == 4 && xhr.status == 200) {
+            vue[data] = JSON.parse(xhr.response);
+          }
+        };
+      }
+    }
+  })
+</script>
