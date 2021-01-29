@@ -72,6 +72,11 @@
       "desc": "掌握"
     },
     {
+      "name":"MySQL/MariaDB",
+      "percent":"83%",
+      "desc":"熟练"
+    },
+    {
       "name":"MarkDown",
       "percent":"95%",
       "desc": "掌握"
@@ -90,6 +95,11 @@
       "name":"Git",
       "percent":"90%",
       "desc": "掌握"
+    },
+    {
+      "name":"Oracle",
+      "percent":"83%",
+      "desc":"熟练"
     },
     {
       "name": "Latex",
@@ -112,6 +122,11 @@
       "desc": "熟练"
     },
     {
+      "name":"SqlServer",
+      "percent":"70%",
+      "desc":"了解"
+    },
+    {
       "name":"Python",
       "percent":"65%",
       "desc": "了解"
@@ -130,6 +145,18 @@
       "name": "CentOS/Ubuntu",
       "percent": "80%",
       "desc": "熟练"
+    }
+  ],
+  "article":[
+    {
+      "name":"算法竞赛/传统算法",
+      "link":"mooyyu.github.io/meta/algorithm/",
+      "child": [
+        {
+          "name": "代码模板",
+          "link": "mooyyu.github.io/meta/oicode/"
+        }
+      ]
     }
   ],
   "project":[

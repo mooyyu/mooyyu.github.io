@@ -25,25 +25,19 @@
             </div>
             <div class="contact-info">
               <div class="row">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4">
                   <div class="item wow inShow" data-wow-delay="0.3s">
-                    <h4>姓名</h4>
-                    <div class="info">{{userInfo.name}}</div>
+                    <h4>个人信息</h4>
+                    <div class="info">{{userInfo.name}} {{userInfo.sex}} {{calcDate(userInfo.birthday)}}岁</div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                  <div class="item wow inShow" data-wow-delay="0.4s">
-                    <h4>基本信息</h4>
-                    <div class="info">{{userInfo.sex}} {{calcDate(userInfo.birthday)}}岁</div>
-                  </div>
+                <div class="col-md-4">
+                  <a class="item wow inShow" data-wow-delay="0.55s" :href="'//'+userInfo.website" target="_blank">
+                    <h4>个人网站</h4>
+                    <div class="info">{{userInfo.website}}</div>
+                  </a>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                  <div class="item wow inShow" data-wow-delay="0.5s">
-                    <h4>位置</h4>
-                    <div class="info">{{userInfo.location}}</div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4">
                   <div class="item wow inShow" data-wow-delay="0.6s">
                     <h4>学历</h4>
                     <div class="info">{{userInfo.education}}</div>
@@ -51,25 +45,19 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4">
                   <div class="item wow inShow" data-wow-delay="0.35s">
                     <h4>WeChat</h4>
                     <div class="info">{{userInfo.wechat}}</div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4">
                   <a class="item wow inShow" data-wow-delay="0.45s" :href="'mailto:'+userInfo.email" target="_blank">
                     <h4>Email</h4>
                     <div class="info">{{userInfo.email}}</div>
                   </a>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                  <a class="item wow inShow" data-wow-delay="0.55s" :href="'//'+userInfo.website" target="_blank">
-                    <h4>Site</h4>
-                    <div class="info">{{userInfo.website}}</div>
-                  </a>
-                </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4">
                   <a class="item wow inShow" data-wow-delay="0.65s" :href="'//github.com/'+userInfo.github" target="_blank">
                     <h4>Github</h4>
                     <div class="info">{{userInfo.github}}</div>
@@ -139,7 +127,7 @@
         </header>
         <div class="section-content">
           <div class="row skill">
-            <div class="col-md-3" v-for="skill in userInfo.skill" :key="skill.name">
+            <div class="col-all-5 skill-item" v-for="skill in userInfo.skill" :key="skill.name">
               <div class="item">
                 <div class="text-info">
                   <span class="hide show-print-inline">{{skill.desc}}</span>
@@ -151,6 +139,34 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-bg section-header-bg"></div>
+        <div class="section-bg section-content-bg"></div>
+        <header class="header">
+          <div class="content-box">
+            <h2 class="title">技术文章归档&nbsp;/&nbsp;
+              <small><i>Article</i></small>
+            </h2>
+            <div class="description no-print">过往所写的一些文章</div>
+          </div>
+        </header>
+        <div class="section-content">
+          <ul class="article">
+            <li v-for="article in userInfo.article" :key="article.name">
+              {{article.name}}
+              <a :href="'//'+article.link">{{article.link}}</a>
+              <ul v-if="article.child">
+                <li v-for="art in article.child" :key="art.name">
+                  {{art.name}}
+                  <a :href="'//'+art.link">{{art.link}}</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

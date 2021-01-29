@@ -139,6 +139,9 @@ ul{
         line-height: 1.9rem;
         text-indent: 2rem;
       }
+      p:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -237,7 +240,7 @@ ul{
   }
   .text-info{
     margin-bottom:.7rem;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .num{
     display: inline-block;
@@ -335,72 +338,6 @@ ul{
     font-size: 2.5rem;
   }
 }
-/* print */
-@media print{
-  .col-md-6{
-    width:50%;
-  }
-  .no-print{
-    display: none;
-    opacity:0;
-  }
-  .show-print-block{
-    display: block!important;
-    opacity: 1!important;
-  }
-  .show-print-inline{
-    display: inline-block!important;
-  }
-  .section .section-content{
-    padding: 0 12px;
-  }
-  .section-header{
-    .description{
-      text-align: center;
-    }
-    .contact-info{
-      &>div:first-child{
-        border-bottom:none;
-        padding-bottom:0;
-      }
-      h4{
-        width: 80px;
-        float: left;
-        margin: 10px 0;
-        line-height: 1rem;
-      }
-      .info{
-        padding: 10px 0 10px 80px;
-        line-height: 1rem;
-      }
-      a{
-        display: block;
-      }
-    }
-    .name{
-      margin-bottom:1rem;
-    }
-  }
-
-  .skill{
-    .item{
-      margin-bottom:0.5rem;
-    }
-  }
-  .experience .item{
-    margin-bottom: 1rem;
-  }
-
-  .extra-html {
-    a {
-      color: black !important;
-    }
-  }
-
-  header h2 {
-    margin: .3rem 0 .15rem 0;
-  }
-}
 
 /* animate */
 .inShow{
@@ -484,9 +421,82 @@ ul{
   font-family: serif;
 }
 
-.extra-html {
-  a {
-    color: $light;
-    display: inline;
+.extra-html a, .article a {
+  color: $light;
+  display: inline;
+}
+
+.skill-item {
+  height: 30px;
+  margin: 9px 0;
+}
+
+/* print */
+@media print{
+  .col-md-6{
+    width:50%;
+  }
+  .no-print{
+    display: none;
+    opacity:0;
+  }
+  .show-print-block{
+    display: block!important;
+    opacity: 1!important;
+  }
+  .show-print-inline{
+    display: inline-block!important;
+  }
+  .section .section-content{
+    padding: 0 12px;
+  }
+  .section-header{
+    .description{
+      text-align: center;
+    }
+    .contact-info{
+      &>div:first-child{
+        border-bottom:none;
+        padding-bottom:0;
+      }
+      h4{
+        width: 64px;
+        float: left;
+        margin: 10px 0;
+        line-height: 1rem;
+      }
+      .info{
+        padding: 10px 0 10px 64px;
+        line-height: 1rem;
+        overflow-wrap: break-word;
+      }
+      a{
+        display: block;
+      }
+    }
+    .name{
+      margin-bottom:1rem;
+    }
+  }
+
+  .skill{
+    .item{
+      margin-bottom:0.5rem;
+    }
+  }
+  .experience .item{
+    margin-bottom: 1rem;
+  }
+
+  .extra-html a, .article a {
+    color: black !important;
+  }
+
+  header h2 {
+    margin: .3rem 0 .15rem 0;
+  }
+
+  .skill-item {
+    margin: 1px 0;
   }
 }
