@@ -235,11 +235,10 @@ ul{
 }
 .skill{
   .item{
-    margin-bottom:2rem;
-    padding-right:2rem;
+    padding:0 1rem;
   }
   .text-info{
-    margin-bottom:.7rem;
+    margin-bottom:.3rem;
     font-size: .8rem;
   }
   .num{
@@ -323,10 +322,10 @@ ul{
 @media (max-width: 768px) {
   .section{
     .header{
-      padding:15px;
+      padding:14px;
     }
     .section-content{
-      padding:15px;
+      padding:14px;
     }
   }
   .section-header{
@@ -436,7 +435,7 @@ ul{
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 50px);
+    grid-template-rows: repeat(4, 36px);
     width: 100%;
   }
 }
