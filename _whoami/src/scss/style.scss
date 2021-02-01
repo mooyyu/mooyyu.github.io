@@ -431,6 +431,16 @@ ul{
   margin: 9px 0;
 }
 
+@media (min-width:520px) {
+  .skill {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    width: 100%;
+  }
+}
+
 /* print */
 @media print{
   .col-md-6{

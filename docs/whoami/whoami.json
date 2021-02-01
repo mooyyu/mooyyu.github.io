@@ -62,8 +62,38 @@
       "desc":"掌握"
     },
     {
+      "name": "H5,JS,CSS",
+      "percent": "90%",
+      "desc": "掌握"
+    },
+    {
+      "name": "BootStrap",
+      "percent": "83%",
+      "desc": "熟练"
+    },
+    {
+      "name": "Chart.js",
+      "percent": "83%",
+      "desc": "熟练"
+    },
+    {
       "name":"C++",
       "percent":"70%",
+      "desc": "掌握"
+    },
+    {
+      "name": "CMake",
+      "percent": "50%",
+      "desc": "了解"
+    },
+    {
+      "name": "Java/SpringBoot",
+      "percent": "80%",
+      "desc": "掌握"
+    },
+    {
+      "name": "Maven",
+      "percent": "70%",
       "desc": "掌握"
     },
     {
@@ -72,9 +102,39 @@
       "desc": "掌握"
     },
     {
-      "name":"MySQL/MariaDB",
+      "name": "Git",
+      "percent": "90%",
+      "desc": "掌握"
+    },
+    {
+      "name": "Shell",
+      "percent": "70%",
+      "desc": "熟练"
+    },
+    {
+      "name": "CentOS/Ubuntu",
+      "percent": "80%",
+      "desc": "熟练"
+    },
+    {
+      "name":"MySQL",
       "percent":"83%",
       "desc":"熟练"
+    },
+    {
+      "name": "MariaDB",
+      "percent": "83%",
+      "desc": "熟练"
+    },
+    {
+      "name": "Oracle",
+      "percent": "83%",
+      "desc": "熟练"
+    },
+    {
+      "name": "SqlServer",
+      "percent": "70%",
+      "desc": "了解"
     },
     {
       "name":"MarkDown",
@@ -82,49 +142,9 @@
       "desc": "掌握"
     },
     {
-      "name":"Javascript",
-      "percent":"90%",
-      "desc": "掌握"
-    },
-    {
-      "name":"Java",
-      "percent":"80%",
-      "desc": "掌握"
-    },
-    {
-      "name":"Git",
-      "percent":"90%",
-      "desc": "掌握"
-    },
-    {
-      "name":"Oracle",
-      "percent":"83%",
-      "desc":"熟练"
-    },
-    {
       "name": "Latex",
       "percent": "80%",
       "desc": "掌握"
-    },
-    {
-      "name":"Css/Less/Scss",
-      "percent":"80%",
-      "desc": "熟练"
-    },
-    {
-      "name":"SpringBoot",
-      "percent":"75%",
-      "desc": "熟练"
-    },
-    {
-      "name":"Shell",
-      "percent":"70%",
-      "desc": "熟练"
-    },
-    {
-      "name":"SqlServer",
-      "percent":"70%",
-      "desc":"了解"
     },
     {
       "name":"Python",
@@ -132,19 +152,9 @@
       "desc": "了解"
     },
     {
-      "name": "BootStrap",
-      "percent": "80%",
-      "desc": "熟练"
-    },
-    {
-      "name": "CMake",
+      "name": "Docker",
       "percent": "50%",
       "desc": "了解"
-    },
-    {
-      "name": "CentOS/Ubuntu",
-      "percent": "80%",
-      "desc": "熟练"
     }
   ],
   "article":[

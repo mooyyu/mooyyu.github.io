@@ -126,8 +126,8 @@
           </div>
         </header>
         <div class="section-content">
-          <div class="row skill">
-            <div class="col-all-5 skill-item" v-for="skill in userInfo.skill" :key="skill.name">
+          <div class="skill">
+            <div class="skill-item" v-for="skill in userInfo.skill" :key="skill.name">
               <div class="item">
                 <div class="text-info">
                   <span class="hide show-print-inline">{{skill.desc}}</span>
