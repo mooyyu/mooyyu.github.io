@@ -1,6 +1,11 @@
 name: 'Mooyyu Crab.'
 logo: '/assets/images/logo/mooyyu/m.png'
-description: 'Printing the planet, one layer at a time.'
+title: "Mooyyu Crab.'s Blog"
+author: 'mooyyu'
+description: "Mooyyu Crab.'s Blog. Algorithm, C++, Math, AI, Life."
+tagline: "Mooyyu Crab.'s Blog"
+
+google_site_verification: '0LZg36yiItnOtvXj-x8GPjsLmWZk9ujUR7nl6SRb28g'
 
 baseurl: ''
 url: 'https://mooyyu.github.io'
