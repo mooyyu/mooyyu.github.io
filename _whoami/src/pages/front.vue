@@ -94,6 +94,34 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
+            <h2 class="title">技术文章归档&nbsp;/&nbsp;
+              <small><i>Article</i></small>
+            </h2>
+            <div class="description no-print">过往所写的一些文章</div>
+          </div>
+        </header>
+        <div class="section-content">
+          <div class="article">
+            <div v-for="article in userInfo.article" :key="article.name">
+              {{article.name}}
+              <a :href="'//'+article.link">{{article.link}}</a>
+              <div class="article-child" v-if="article.child">
+                <span v-for="art in article.child" :key="art.name">
+                  {{art.name}}
+                  <a :href="'//'+art.link">{{art.link}}</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-bg section-header-bg"></div>
+        <div class="section-bg section-content-bg"></div>
+        <header class="header">
+          <div class="content-box">
             <h2 class="title">获得奖项&nbsp;/&nbsp;
               <small><i>Honor</i></small>
             </h2>
@@ -102,10 +130,11 @@
         </header>
         <div class="section-content">
           <div class="row honor">
-            <div class="col-md-3" v-for="honor in userInfo.honor" :key="honor.img">
+            <div class="col-md-3 honor-item" v-for="honor in userInfo.honor" :key="honor.img">
               <div class="item">
-                <img :src="'./img/honor/'+honor.img+'.jpg'" :alt="honor.img">
-                <span>{{honor.name}}</span>
+                <img class="no-print" :src="'./img/honor/'+honor.img+'.jpg'" :alt="honor.img">
+                <small>{{honor.time}}</small>
+                <small>{{honor.name}}</small>
                 <small>{{honor.honor}}</small>
               </div>
             </div>
@@ -113,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section page-break-section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>
@@ -139,34 +168,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
-        <header class="header">
-          <div class="content-box">
-            <h2 class="title">技术文章归档&nbsp;/&nbsp;
-              <small><i>Article</i></small>
-            </h2>
-            <div class="description no-print">过往所写的一些文章</div>
-          </div>
-        </header>
-        <div class="section-content">
-          <ul class="article">
-            <li v-for="article in userInfo.article" :key="article.name">
-              {{article.name}}
-              <a :href="'//'+article.link">{{article.link}}</a>
-              <ul v-if="article.child">
-                <li v-for="art in article.child" :key="art.name">
-                  {{art.name}}
-                  <a :href="'//'+art.link">{{art.link}}</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </div>
     </section>

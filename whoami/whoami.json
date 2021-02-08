@@ -5,7 +5,7 @@
   "firstName":"mooyyu",
   "lastName":"Crab.",
   "slogan":"Reality is a Remix.",
-  "tips":"此页面信息最后更新于2021年2月6日",
+  "tips":"此页面信息最后更新于2021年2月8日",
   "education":"南京晓庄学院 软件工程",
   "location":"南京",
   "wechat":"crab-mooyyu",
@@ -20,44 +20,51 @@
   ],
   "honor":[
     {
-      "name":"2018 深圳宝安创新创业大赛南京赛区",
+      "time":"2018年",
+      "name":"深圳宝安创新创业大赛南京赛区",
       "honor":"一等奖",
       "img":"innovation"
     },
     {
-      "name":"2018-2019学年获得国家励志奖学金",
+      "time":"2018-2019学年",
+      "name":"获得国家励志奖学金",
       "honor":"",
       "img":"inspiration"
     },
     {
-      "name":"2019 CCPC-JSCPC",
+      "time":"2019年",
+      "name":"CCPC-JSCPC",
       "honor":"The Third Prize",
       "img":"ccpc"
     },
     {
-      "name":"2019 ICPC-Asia-ShangHai",
+      "time":"2019年",
+      "name":"ICPC-Asia-ShangHai",
       "honor":"Honorable Mention",
       "img":"icpc"
     },
     {
-      "name":"2019 蓝桥杯江苏赛区C++程序设计B组",
+      "time":"2019年",
+      "name":"蓝桥杯江苏赛区C++程序设计B组",
       "honor":"二等奖",
       "img":"lanqiao"
     },
     {
-      "name": "2020 IPC网络挑战赛",
+      "time":"2020年",
+      "name":"IPC网络挑战赛",
       "honor":"Bronze Medal",
       "img":"ipc"
     },
     {
-      "name":"2020 传智杯程序设计赛道全国总决赛",
+      "time":"2020年",
+      "name":"传智杯程序设计赛道全国总决赛",
       "honor":"三等奖",
       "img":"chuanzhi"
     }
   ],
   "skill":[
     {
-      "name":"Vue/router+vuex",
+      "name":"Vue",
       "percent":"90%",
       "desc":"掌握"
     },
@@ -87,7 +94,7 @@
       "desc": "了解"
     },
     {
-      "name": "Java/SpringBoot",
+      "name": "Java/Spring",
       "percent": "80%",
       "desc": "掌握"
     },
@@ -112,7 +119,7 @@
       "desc": "熟练"
     },
     {
-      "name": "CentOS/Ubuntu",
+      "name": "Linux",
       "percent": "80%",
       "desc": "熟练"
     },
