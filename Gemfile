@@ -14,6 +14,7 @@ gem 'kramdown', '>= 1.17'
 gem 'naturally', '>= 2.1.0'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'tzinfo-data'
+gem 'jekyll-sitemap'
 
 # If you have issues installing rdiscount make sure you're using one
 # of the following Ruby versions:
