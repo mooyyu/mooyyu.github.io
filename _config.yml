@@ -5,7 +5,9 @@ author: 'mooyyu'
 description: "Mooyyu Crab.'s Blog. Algorithm, C++, Math, AI, Life."
 tagline: "Mooyyu Crab.'s Blog"
 
-google_site_verification: '0LZg36yiItnOtvXj-x8GPjsLmWZk9ujUR7nl6SRb28g'
+webmaster_verifications:
+  google: '0LZg36yiItnOtvXj-x8GPjsLmWZk9ujUR7nl6SRb28g'
+  baidu: 'code-0BzdQrWuUd'
 
 baseurl: ''
 url: 'https://mooyyu.github.io'
