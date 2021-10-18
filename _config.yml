@@ -52,7 +52,7 @@ jekyll-spaceship:
 
 markdown: kramdown
 highlighter: rouge
-timezone: '	Asia/Shanghai'
+timezone: 'Asia/Shanghai'
 
 kramdown:
   input: GFM

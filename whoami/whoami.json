@@ -5,26 +5,27 @@
   "firstName":"mooyyu",
   "lastName":"Crab.",
   "slogan":"Reality is a Remix.",
-  "tips":"此页面信息最后更新于2021年2月8日",
+  "tips":"此页面信息最后更新于2021年10月18日",
   "education":"南京晓庄学院 软件工程",
-  "location":"南京",
+  "phone":"153 0518 0693",
+  "location": "南京",
   "wechat":"crab-mooyyu",
   "website":"mooyyu.github.io",
   "github":"mooyyu",
   "email":"mooyyucrab@gmail.com",
   "intro":[
-    "本科期间有3年的项目经验, 其中包括一年以上的团队leader. 有独立开发项目的能力, 也适应团队协作的高效开发方式. 能编写稳定可靠的程序, 代码整洁结构良好. 有高效的项目管理与团队合作能力. 在校期间两次获得校先进个人荣誉.",
-    "喜欢算法, 本科期间参加众多如ICPC, CCPC, 蓝桥杯等竞赛并取得一些成绩. 喜欢新知识、新技术, 适应能力强, 学习速度快(真).",
-    "有个人网站. 熟悉前后端分离项目开发，前端有基于vue生态的多个项目开发经验，也了解微信小程序的开发; 后端也有基于springboot的多个项目开发经验. 喜欢开源，善于思考, 爱折腾. 熟练使用git版本管理, 熟练使用命令行环境进行工作. 有丰富的BS架构web应用开发经验。对程序的稳定健壮以及良好用户体验追求精益求精.",
-    "乐观积极, 热爱生活. 球类运动我的最爱."
+    "1 有扎实的编程基础, 能够熟练运用常用数据结构与传统算法",
+    "&emsp;&emsp;1.1 后端编程语言中对C++, Java(SpringBoot框架), 有较为丰富的编程经验; 愿意转向C#开发",
+    "&emsp;&emsp;1.2 前端对JS, CSS(LESS, SCSS)语言有丰富编写经验, 十分熟悉Vue体系架构, 有一些项目经验; 对Webpack, DevTool使用熟练",
+    "&emsp;&emsp;1.3 有ACM等算法竞赛参赛经历, 对数据结构与算法学习扎实, 能够熟练运用; 编码风格良好, 逻辑缜密",
+    "2 拥有丰富的项目经验, 有独立开发项目的能力, 也能在团队协作中高效工作",
+    "&emsp;&emsp;2.1 拥有十分扎实的调试能力; 对VisualStudio, Jetbrains系列IDE都能够熟练使用",
+    "&emsp;&emsp;2.2 熟练使用版本管理工具(Git, SVN)以及其他开发相关的各种命令行工具",
+    "&emsp;&emsp;2.3 熟悉在各种计算机环境下的开发:Win, Mac, Linux(包括WSL, 服务器远程); 能够在纯英文系统中作业",
+    "3 熟悉数据库相关编程, 对SQL SERVER, Oracle, MySql, Sqlite, MMKV均有接触; 能够编写较为复杂的SQL",
+    "4 本科期间英语四级成绩490, 阅读英文文档没有任何障碍, 有一定的口语会话能力"
   ],
   "honor":[
-    {
-      "time":"2018年",
-      "name":"深圳宝安创新创业大赛南京赛区",
-      "honor":"一等奖",
-      "img":"innovation"
-    },
     {
       "time":"2018-2019学年",
       "name":"获得国家励志奖学金",
@@ -33,15 +34,9 @@
     },
     {
       "time":"2019年",
-      "name":"CCPC-JSCPC",
-      "honor":"The Third Prize",
+      "name":"CCPC-江苏省赛",
+      "honor":"铜奖",
       "img":"ccpc"
-    },
-    {
-      "time":"2019年",
-      "name":"ICPC-Asia-ShangHai",
-      "honor":"Honorable Mention",
-      "img":"icpc"
     },
     {
       "time":"2019年",
@@ -52,7 +47,7 @@
     {
       "time":"2020年",
       "name":"IPC网络挑战赛",
-      "honor":"Bronze Medal",
+      "honor":"铜奖",
       "img":"ipc"
     },
     {
@@ -64,115 +59,35 @@
   ],
   "skill":[
     {
-      "name":"Vue",
-      "percent":"90%",
+      "name":"逻辑体系/模块设计",
+      "percent":"95%",
       "desc":"掌握"
     },
     {
-      "name": "H5,JS,CSS",
-      "percent": "90%",
-      "desc": "掌握"
-    },
-    {
-      "name": "BootStrap",
-      "percent": "83%",
-      "desc": "熟练"
-    },
-    {
-      "name": "Chart.js",
-      "percent": "83%",
-      "desc": "熟练"
-    },
-    {
-      "name":"C/C++(STL)",
-      "percent":"73%",
-      "desc": "掌握"
-    },
-    {
-      "name": "CMake",
-      "percent": "50%",
-      "desc": "了解"
-    },
-    {
-      "name": "Java/Spring",
+      "name": "高性能编程",
       "percent": "80%",
-      "desc": "掌握"
+      "desc": "良好"
     },
     {
-      "name": "Maven",
-      "percent": "70%",
-      "desc": "掌握"
-    },
-    {
-      "name":"CommandLine",
-      "percent":"85%",
-      "desc": "掌握"
-    },
-    {
-      "name": "Git",
-      "percent": "90%",
-      "desc": "掌握"
-    },
-    {
-      "name": "Shell",
-      "percent": "70%",
-      "desc": "熟练"
-    },
-    {
-      "name": "Linux",
+      "name": "文件系统操作/数据库操作",
       "percent": "80%",
       "desc": "熟练"
     },
     {
-      "name":"MySQL",
-      "percent":"83%",
-      "desc":"熟练"
-    },
-    {
-      "name": "MariaDB",
-      "percent": "83%",
-      "desc": "熟练"
-    },
-    {
-      "name": "Oracle",
-      "percent": "83%",
-      "desc": "熟练"
-    },
-    {
-      "name": "SqlServer",
-      "percent": "70%",
-      "desc": "了解"
-    },
-    {
-      "name":"MarkDown",
-      "percent":"95%",
-      "desc": "掌握"
-    },
-    {
-      "name": "Latex",
-      "percent": "80%",
-      "desc": "掌握"
-    },
-    {
-      "name":"Python",
-      "percent":"65%",
-      "desc": "了解"
-    },
-    {
-      "name": "Docker",
-      "percent": "50%",
-      "desc": "了解"
+      "name": "网络编程",
+      "percent": "75%",
+      "desc": "良好"
     }
   ],
-  "article":[
+  "job":[
     {
-      "name":"算法竞赛/传统算法",
-      "link":"mooyyu.github.io/meta/algorithm/",
-      "child": [
-        {
-          "name": "代码模板",
-          "link": "mooyyu.github.io/meta/oicode/"
-        }
+      "name":"C++研发岗",
+      "company":"南京拓界",
+      "group":"移动取证中心",
+      "time":"2021.02.20-2021.10.31",
+      "content":[
+        "主要负责取证手机中若干应用数据的解析模块; 负责将某社交应用数据导出为PDF文档; 修改与公安部某平台数据系统对接模块. 主要工作语言为C++, 使用Visual Studio进行开发.",
+        "此外也有使用Python参与数据获取部分功能的开发."
       ]
     }
   ],
@@ -185,21 +100,19 @@
       "content":[
         "在与指导老师的交流下完成项目的整体架构逻辑设计",
         "完成数据库的设计",
-        "独立完成全部的前端. 从整体设计到各个细节实现",
+        "独立完成前端的全部设计与实现",
         "独立完成文件上传, 后端文件管理部分代码的实现",
-        "独立完成可靠的后端SpringBoot的框架搭建与配置",
-        "后期重构了团队其他成员的部分数据sql实现, 提升数据库效率"
+        "参与修改部分数据SQL, 提升数据查询效率"
       ],
       "technology":[
         "Vue",
-        "SpringBoot",
-        "Git"
+        "SpringBoot"
       ]
     },
     {
       "time": "2019.12.12-2019.12.30",
       "title": "文本查重系统",
-      "description": "一个文本查重系统, 个人独立实现. 旨在帮助高校教师可以一次性检查全部同学间的论文、代码等有无抄袭情况. 项目主要由三部分组成: 一是基于斯坦福大学的开放MOSS系统设计更人性化的使用方式; 二是基于sim系统的主要对于代码的查重; 三是基于jplag系统的对于代码和多种文本的相似度比较. 项目开发完成后经过测试并通过.",
+      "description": "一个文本查重系统, 个人独立实现. 旨在帮助高校教师可以一次性检查全部同学间的论文、代码等有无抄袭情况. 项目主要以MOSS, sim, jPlag三个系统为基础进行开发.",
       "extra": "项目地址: <a href='//github.com/mooyyu/antiplag-web' target='_blank'>github.com/mooyyu/antiplag-web</a>. 本项目基于另一开源项目<a href='github.com/fanghon/antiplag' target='_blank'>antiplag</a>, 从win平台迁移到Web, 进行了大部分代码重构.",
       "content": null,
       "technology": [
@@ -211,7 +124,7 @@
       "time": "2019.07.20-2019.08.28",
       "title": "基于高校数据的本地化大屏统计展示",
       "description": "一个基于高校学院数据库的本地化项目, 个人独立实现. 用于在校内展示可视化的学院相关信息. 项目主要特点是实现展示项目模块化, 可在线(内网)通过管理页面实时调节显示屏的模块布局. 项目开发完成后经过测试并通过, 项目现已落地在学校内网使用.",
-      "extra": "项目前端仓库地址: <a href='//github.com/mooyyu/Localized-screen-display-frontend' target='_blank'>github.com/mooyyu/Localized-screen-display-frontend</a>. 项目后端仓库地址: <a href='//github.com/mooyyu/Localized-screen-display-backstage' target='_blank'>github.com/mooyyu/Localized-screen-display-backstage</a>. (后端代码中部分涉及学校数据库结构的sql代码未上传.)",
+      "extra": "项目前端仓库地址: <a href='//github.com/mooyyu/Localized-screen-display-frontend' target='_blank'>github.com/mooyyu/Localized-screen-display-frontend</a>. 项目后端仓库地址: <a href='//github.com/mooyyu/Localized-screen-display-backstage' target='_blank'>github.com/mooyyu/Localized-screen-display-backstage</a>. (涉及学校数据库结构的SQL未上传.)",
       "content": null,
       "technology": [
         "Vue",
@@ -221,10 +134,14 @@
     {
       "time": null,
       "title": "个人网站",
-      "description": "Github Pages 驱动的个人网站. 基于大量开源项目, 自己也做了大量或大或小的设计、调整与修正, 维护至今.",
+      "description": "Github Pages 驱动的个人网站. 基于大量开源项目整合, 自己也做了许多设计、调整与修改.",
       "extra": "站点: <a href='//mooyyu.github.io'>mooyyu.github.io</a>. 项目地址: <a href='//github.com/mooyyu/mooyyu.github.io' target='_blank'>github.com/mooyyu/mooyyu.github.io</a>. ",
       "content": null,
-      "technology": null
+      "technology": [
+        "Vue",
+        "MarkDown",
+        "LaTeX"
+      ]
     }
   ]
 }

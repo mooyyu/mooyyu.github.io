@@ -142,10 +142,10 @@ ul{
       flex-direction: column;
     }
     .intro{
+      padding-left: 1.5rem;
       p{
         margin-bottom: .6rem;
         line-height: 1.9rem;
-        text-indent: 2rem;
       }
       p:last-of-type {
         margin-bottom: 0;
@@ -440,8 +440,8 @@ ul{
   .skill {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 36px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 36px);
     width: 100%;
   }
 }
@@ -475,13 +475,13 @@ ul{
         padding-bottom:0;
       }
       h4{
-        width: 64px;
+        width: 32px;
         float: left;
         margin: 10px 0;
         line-height: 1rem;
       }
       .info{
-        padding: 10px 0 10px 64px;
+        padding: 10px 0 10px 32px;
         line-height: 1rem;
         overflow-wrap: break-word;
       }

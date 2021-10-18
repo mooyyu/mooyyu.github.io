@@ -30,3 +30,5 @@ gem 'jekyll-sitemap'
 #   - 64 bit
 #     - http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2-x64.exe
 #     - http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe
+
+gem "webrick", "~> 1.7"

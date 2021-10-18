@@ -20,21 +20,21 @@
           <div class="content-box">
             <div class="name-slogan">
               <h1 class="wow inShow no-print" data-wow-delay="0.1s">
-                <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
+                <span class="text-light">{{userInfo.lastName}}</span> {{userInfo.firstName}}
               </h1>
             </div>
             <div class="contact-info">
               <div class="row">
                 <div class="col-md-4">
                   <div class="item wow inShow" data-wow-delay="0.3s">
-                    <h4>个人信息</h4>
+                    <h4>信息</h4>
                     <div class="info">{{userInfo.name}} {{userInfo.sex}} {{calcDate(userInfo.birthday)}}岁</div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <a class="item wow inShow" data-wow-delay="0.55s" :href="'//'+userInfo.website" target="_blank">
-                    <h4>个人网站</h4>
-                    <div class="info">{{userInfo.website}}</div>
+                    <h4>地址</h4>
+                    <div class="info">{{userInfo.location}}</div>
                   </a>
                 </div>
                 <div class="col-md-4">
@@ -47,20 +47,20 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="item wow inShow" data-wow-delay="0.35s">
-                    <h4>WeChat</h4>
+                    <h4>微信</h4>
                     <div class="info">{{userInfo.wechat}}</div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <a class="item wow inShow" data-wow-delay="0.45s" :href="'mailto:'+userInfo.email" target="_blank">
-                    <h4>Email</h4>
+                    <h4>邮箱</h4>
                     <div class="info">{{userInfo.email}}</div>
                   </a>
                 </div>
                 <div class="col-md-4">
                   <a class="item wow inShow" data-wow-delay="0.65s" :href="'//github.com/'+userInfo.github" target="_blank">
-                    <h4>Github</h4>
-                    <div class="info">{{userInfo.github}}</div>
+                    <h4>电话</h4>
+                    <div class="info">{{userInfo.phone}}</div>
                   </a>
                 </div>
               </div>
@@ -75,7 +75,7 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">介绍&nbsp;/&nbsp;
+            <h2 class="title">介绍 / 
               <small><i>Intro</i></small>
             </h2>
             <div class="description no-print">介绍一些个人基本情况</div>
@@ -94,35 +94,7 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">技术文章归档&nbsp;/&nbsp;
-              <small><i>Article</i></small>
-            </h2>
-            <div class="description no-print">过往所写的一些文章</div>
-          </div>
-        </header>
-        <div class="section-content">
-          <div class="article">
-            <div v-for="article in userInfo.article" :key="article.name">
-              {{article.name}}
-              <a :href="'//'+article.link">{{article.link}}</a>
-              <div class="article-child" v-if="article.child">
-                <span v-for="art in article.child" :key="art.name">
-                  {{art.name}}
-                  <a :href="'//'+art.link">{{art.link}}</a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
-        <header class="header">
-          <div class="content-box">
-            <h2 class="title">获得奖项&nbsp;/&nbsp;
+            <h2 class="title">获得奖项 / 
               <small><i>Honor</i></small>
             </h2>
             <div class="description no-print">本科时期获得奖项</div>
@@ -142,16 +114,16 @@
         </div>
       </div>
     </section>
-    <section class="section page-break-section">
+    <section class="section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">技能&nbsp;/&nbsp;
+            <h2 class="title">技能 / 
               <small><i>Skills</i></small>
             </h2>
-            <div class="description no-print">我所掌握的工具和技术栈</div>
+            <div class="description no-print">自己的技术评价</div>
           </div>
         </header>
         <div class="section-content">
@@ -171,14 +143,47 @@
         </div>
       </div>
     </section>
+    <section class="section page-break-section">
+      <div class="container">
+        <div class="section-bg section-header-bg"></div>
+        <div class="section-bg section-content-bg"></div>
+        <header class="header">
+          <div class="content-box">
+            <h2 class="title">工作经历 /
+              <small><i>Work</i></small>
+            </h2>
+            <div class="description no-print">以往的工作</div>
+          </div>
+        </header>
+        <div class="section-content">
+          <div class="experience">
+            <div class="item dot" v-for="item in userInfo.job" :key="item.title">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="time">{{item.time}}</div>
+                  <div class="title">{{item.name}}</div>
+                  <div>{{item.group}}</div>
+                  <div>{{item.company}}</div>
+                </div>
+                <div class="col-md-9">
+                  <div class="content">
+                    <p v-for="desc in item.content" :key="desc">{{desc}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">项目经验&nbsp;/&nbsp;
-              <small><i>Experience</i></small>
+            <h2 class="title">个人项目 /&nbsp;
+              <small><i>Project</i></small>
             </h2>
             <div class="description no-print">做过的一些项目</div>
           </div>
@@ -216,11 +221,6 @@
                 </div>
               </div>
             </div>
-            <div class="item">更多项目访问Github仓库查看:
-              <a :href="'//github.com/'+userInfo.github+'?tab=repositories'" target="_blank">
-                github.com/{{userInfo.github}}?tab=repositories
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -242,21 +242,21 @@
             <div class="row">
               <div class="col-md-3">
                 <div class="item">
-                  <h4>姓名 </h4>
-                  <span class="info">{{userInfo.name}}</span>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="item">
-                  <h4>WeChat </h4>
+                  <h4>微信 </h4>
                   <span class="info">{{userInfo.wechat}}</span>
                 </div>
               </div>
               <div class="col-md-6">
                 <a class="item" :href="'mailto:'+userInfo.email" target="_blank">
-                  <h4>Email </h4>
+                  <h4>邮箱 </h4>
                   <span class="info">{{userInfo.email}}</span>
                 </a>
+              </div>
+              <div class="col-md-3">
+                <div class="item">
+                  <h4>电话 </h4>
+                  <span class="info">{{userInfo.phone}}</span>
+                </div>
               </div>
             </div>
           </div>
@@ -286,6 +286,7 @@
           slogan:null,
           tips:null,
           education:null,
+          phone:null,
           location:null,
           wechat:null,
           website:null,
@@ -294,6 +295,7 @@
           intro:[],
           honor:[],
           skill:[],
+          job:[],
           project:[]
         }
       }
