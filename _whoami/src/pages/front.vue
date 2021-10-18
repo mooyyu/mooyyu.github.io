@@ -102,7 +102,7 @@
         </header>
         <div class="section-content">
           <div class="row honor">
-            <div class="col-md-3 honor-item" v-for="honor in userInfo.honor" :key="honor.img">
+            <div class="col-md-4 honor-item" v-for="honor in userInfo.honor" :key="honor.img">
               <div class="item">
                 <img class="no-print" :src="'./img/honor/'+honor.img+'.jpg'" :alt="honor.img">
                 <small>{{honor.time}}</small>
