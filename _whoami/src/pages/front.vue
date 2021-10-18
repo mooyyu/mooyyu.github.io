@@ -182,7 +182,7 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">个人项目 /&nbsp;
+            <h2 class="title">个人项目 / 
               <small><i>Project</i></small>
             </h2>
             <div class="description no-print">做过的一些项目</div>
@@ -231,7 +231,7 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">联系&nbsp;/&nbsp;
+            <h2 class="title">联系 / 
               <small><i>Contact</i></small>
             </h2>
             <div class="description no-print">通过这些信息可以联系到我</div>
@@ -262,7 +262,7 @@
           </div>
           <div class="name-slogan no-print">
             <h1 class="wow inShow">
-              <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
+              <span class="text-light">{{userInfo.lastName}}</span> {{userInfo.firstName}}
             </h1>
             <div class="description wow inShow" data-wow-delay="0.05s">{{userInfo.slogan}}（{{userInfo.tips}}）</div>
           </div>
